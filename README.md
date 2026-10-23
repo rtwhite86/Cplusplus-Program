@@ -54,3 +54,66 @@ functionality inside its own class makes the program easier to modify later. For
 or menu options could be added without completely redesigning the existing program. Overall, the project
 helped me understand how organization and readability are just as important as getting a program to produce
 the correct output. 
+
+
+
+---
+
+# CS 230 - Operating Platforms
+
+## The Gaming Room - Software Design Document
+
+### Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design? 
+The Gaming Room was a client seeking to expand its existing Android-based game, Draw It or Lose It, into a web-based application that could be accessed
+across multiple operating platforms. The game allows teams to compete by guessing images displayed during timed rounds. The client needed a solution 
+that would support multiple teams and players while ensuring that game and team names remained unique. The application also needed to be scalable, secure
+and accessible from different devices without requiring separate versions for each operating system. My resposibility was to develop a software design 
+document that evaluated operating platforms, system architecture, storage, memory management, networking, and security to recommend an effective solution 
+for the client's requirements. 
+
+### What did you do particularly well in developing this documentation?
+One area I did particularly well in was organizing the technical information into clear sections that explained how different operating platforms and 
+system components would support The Gaming Room's requirements. I evaluated Linux, Windows, and macOS as potential server platforms while considering
+factors such as performance, scalability, cost, and security. I also explained how memory management, storage management, and networking would affect
+the performance of Draw It or Lose It. I believe my strongest contribution was connecting these technical considerations to the client's need rather than 
+simply describing the technologies. This helped me develop recommendations that were practical and supported by the requirements of the application.
+
+### What about the process of working through a design document did you find helpful when developing the code?
+Working through the software design document helped me understand the importance of identifying requirements and planning the structure of an application
+before beginning development. Creating and reviewing the domain model helped me understand how the GameService, Game, Team, and Player classes needed
+to interact with one another. This was especially useful when implementing the singleton and iterator patterns in the Java application. The singleton
+pattern ensured that only one instance of GameService managed the games, while the iterator pattern helped manage collections of game objects. Have a clear
+understanding of the relationships between these components made it easier to organize the code, avoid unnecessary duplication, and verify that the 
+application met the client's requirements. This experience reinforced how effective planning can make software development more manageable and organized. 
+
+### If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+If I could revise one part of my software design documentation, I would focus on improving the system architecture section by including more detailed 
+diagrams that illustrate how the different components communicate with one another. Although the document explains the client-server architecture and 
+the responsibilities of the operating platform, additional visual representations would make it easier to understand how the web-based application, server
+database, and network connections interact. I would also expand the explanation of how the system could handle increased numbers of players and simultaneous
+game sessions. These improvements would make the document more useful for developers implementing the application and help the client better understand
+how the recommended design supports future growth. 
+
+### How did you interpret the user's needs to implement them into your software design? Why is it so important to consider the user's needs when designing?
+I interpreted the user's needs by reviewing The Gaming Room's requirements and identifying how each requirement would influence the application's design.
+For example, the client needed to support multiple games, teams, and players while preventing duplicate game and team names. I addressed these requirements
+through the application's domain model and the Java implementation, which used the GameService class to manage game instances and validate unique names.
+I also considered the client's need to expand beyond Android by recommending a web-based client-server architecture that would allow users to access the
+game from different operating systems and devices. Security, scalability, and performance were additional considerations because the application needed to 
+support multiple users while protecting game data. Considering the user's needs is important because a technically functional application may still fail
+if it does not solve the client's actual problems or provide a reliable experience for its users. 
+
+### How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+My approach to designing software began with understanding the client's requirements and identifying the major components needed to support the application.
+I used the domain model to establish relationships between classes and determine how games, teams, and players would be managed. I then considered how design
+patters, such as the singleton and iterator patterns, could improve the organization and functionality of the Java application. When developing the software
+design document, I compared operating platforms and evaluated factors such as scalability, security, performance, and cost before making recommendations.
+In future projects, I would continue using requirements analysis, UML diagrams, and design patterns to establish a clear foundation before writing code.
+I would also place greater emphasis on documenting system interaction and evlauating potential challenges early in the design process. These strategies would
+help me develop software that is easier to maintain, expand, and adapt to changing client requirements. 
+
+### Project Artifact
+[View the Completed Software Design Document](CS-230-Operating-Platforms/CS%20230%20Project%20Software%20Design%20Template%20Project%20Three.docx) 
+
+
+
