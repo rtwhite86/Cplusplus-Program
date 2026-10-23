@@ -114,6 +114,39 @@ help me develop software that is easier to maintain, expand, and adapt to changi
 
 ### Project Artifact
 [View the Completed Software Design Document](CS-230-Operating-Platforms/CS%20230%20Project%20Software%20Design%20Template%20Project%20Three.docx) 
+---
 
+# CS 250 - Software Development Lifecycle
+## Sprint Review and Retrospective 
 
+### How do I interpret user needs and implement them into a program? How does creating user stories help with this? 
+Interpreting user needs begins with understanding what the user wants the application to accomplish and translating those expectations into clear software 
+requirements. Throughout the SNHU Travel project, I leanred how user stories help developers understand features from the user's perspective by identifying 
+who needs a features, what they want to accomplish, and why is it important. For example, the requirement to display the top five travel destinations could 
+be translated into a user story with specific acceptance criteria describing what information should appear and how the feature should function. These acceptance
+criteria helped guide development and testing by providing measurable expecations for the completed future. I also learned that communicating with the Product 
+Owner and tester is important when requirements change or additional clarification is needed. Creating user stories helps ensure that development remains 
+focused on delivering functionality that meets the user's actual needs rather than simply implementing features based on assumptions. 
 
+### How do I approach developing programs? What Agile processes do I hope to incorporate into my future development work?
+My approach to developing programs begins with understanding requirements, identifying the major tasks, and organizing the work into manageable steps. Throughout
+the SHNU Travel project, I learned how Agile development allows teams to deliver software incrementally while adapting to changing requirements and feedback.
+Rather than attempting to complete an entire application at once, Scrum uses Sprints to focus on smaller amounts of work that can be developed, tested, 
+and reviewed. I found that practices such as Daily Scrum meetings, Sprint Reviews, and Sprint Retrospectives help teams maintain communication, identify 
+obstacles, and continuously improve their development processes. I also learned the importance of maintaining a prioritized product backlog and using acceptance
+criteria to guide development and testing. In future projects, I would incorporate these Agile practices along with regular communication betweeen developers, 
+testers, and the Product Owner. These stratagies would help me remain organized, respond effectively to changes, and deliver software that meets user expecations. 
+
+### What does it mean to be a good team member in software development?
+Being a good team member in software development means communicating effectively, taking responsibility for assigned work, and supporting others in achieving
+shared project goals. Throughout CS 250, I gained a better understanding of how the Product Owner, Scrum Master, developers, and testers contribute to a 
+successful Agile team. Each role has different responsibilities, but collaboration is necessary to ensure that requirements are understood, development 
+stays on track, and completed features meet user expectations. I learned that providing clear updates during Daily Scrum meetings, asking questions when 
+requirements are unclear, and responding constructively to feedback can help prevent misunderstanding and delays. I also recognize the importance of being
+adaptable when priorities change and helping teammates overcome obstacles rather than focusing only on individual tasks. In future software development projects,
+I would strive to be a dependable team member who communicates openly, shares knowledge, accepts feedback, and contributes to continuous improvement. These
+qualities help build trust within a team and support the delivery of reliable, high-quality software. 
+
+### Project Artifact
+
+[View the Sprint Review and Retrospective](CS-250-Software-Development-Lifecycle/CS%20250%20Final%20Project%20Sprint%20Review%20and%20Retrospective.docx) 
